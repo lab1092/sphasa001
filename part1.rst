@@ -107,24 +107,34 @@ Windowsだと、プロジェクトディレクトリ上から以下のコマン�
 
 どのような内容が表示されたでしょうか。
 
+   .. note::
+
+      エラーが出た場合にはメッセージの内容をよく確認してください。
+
 
 はじめてのreSTructured Text
 ---------------------------
 
 では、以下の演習問題を。先ほど作成したプロジェクトにファイルを追加し、
-index.html の `.. toctree\:\:` の行の下に対応するファイル名を記述した上で
+index.html の `.. toctree::` の行の下に対応するファイル名を記述した上で
 `make html` しながら進めてみてください。
 
-.. toctree::
-   :maxdepth: 1
+   .. toctree::
+      :maxdepth: 1
 
-   part1/lesson0
-   part1/lesson1
-   part1/lesson2
+      part1/lesson0
+      part1/lesson1
+      part1/lesson2
+      part1/lesson3
+      part1/lesson4
+      part1/lesson5
+      part1/lesson6
 
 
-.. note::
+   .. note::
 
-   `show source` でreSTructured Textで記述された元のファイルの内容を
-   確認出来ます。
+      `show source` でreSTructured Textで記述された元のファイルの内容を
+      確認出来ます。
+
+さて、上記は全て終わったでしょうか。終わった後は、
 
