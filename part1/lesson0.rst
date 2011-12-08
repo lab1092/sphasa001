@@ -123,7 +123,8 @@ Lesson 1:
 
    .. tip::
 
-      次へ進むには、"Next Topc"のリンクをクリックして進めるといいですよ。
+      HTML表示の場合は次へ進むには、"Next Topc"のリンクをクリックして
+      進めるといいですよ。
 
 
 Lesson 2:
@@ -147,6 +148,25 @@ Lesson 6:
 
    :doc:`lesson6`
 
-Lesson 7:
 
-   :doc:`lesson7`
+Intermediate
+------------
+
+さて、ここまでの演習で基本的なreSTructured Textの書き方はマスター出来
+ましたね。
+
+これまでに覚えたマークアップでおそらく以下のようなものを記述できるよう
+になると思います。見出し、パラグラフ(インデント)、リンク等々…。
+
+(文字の装飾は適当に解釈することにしますw)
+
+   * `Internet Explorer 7 リリース ノート <http://msdn.microsoft.com/ja-jp/ie/aa740486>`_
+   * `Flash Player 11.1 および AIR 3.1 ユーザーリリースノート <http://kb2.adobe.com/jp/releasenotes/923/cpsid_92359.html>`_
+
+
+
+もちろん `reSTructured Text <http://docutils.sourceforge.net/rst.html>`_
+のマークアップはもっと様々な種類がありますが、今回はこの辺で。
+
+   さらに `reStructuredText Markup Specification <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_
+   を参照するといいかもしれません。

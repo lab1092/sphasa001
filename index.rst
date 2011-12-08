@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Sphinx朝会12月にようこそ!!
-========================================
+==========================
 
 
 目次:
@@ -14,10 +14,8 @@ Sphinx朝会12月にようこそ!!
 
    part0
    part1
-   glossary
-
-..
    part2
+   glossary
    wrapup
    
 
