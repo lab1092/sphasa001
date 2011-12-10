@@ -17,7 +17,7 @@ Sphinx朝会12月にようこそ!!
    part2
    glossary
    wrapup
-   
+   report
 
 Indices and tables
 ==================
