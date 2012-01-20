@@ -9,6 +9,18 @@ git.exe log
 
 .. code-block:: none
 
+   commit e654348609a151626c03f341e780a8ec065a6cde
+   Author: MITSUDA tetsuo <lab1092@gmail.com>
+   Date:   Sat Jan 21 04:18:19 2012 +0900
+   
+       part1 Lesson 7および8を追加
+   
+   commit 4852db064481b65fa6027f6293bc03b9ba4f4a89
+   Author: MITSUDA tetsuo <lab1092@gmail.com>
+   Date:   Sun Dec 11 02:09:34 2011 +0900
+   
+       ビルド後の出力を同梱>html.zip
+   
    commit 361f48fd71f97b8231eb6db1ca29b48a8043cb8d
    Author: MITSUDA tetsuo <lab1092@gmail.com>
    Date:   Sun Dec 11 01:49:40 2011 +0900
