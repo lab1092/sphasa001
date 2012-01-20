@@ -148,6 +148,14 @@ Lesson 6:
 
    :doc:`lesson6`
 
+Lesson 7:(Extra!!)
+
+   :doc:`lesson7`
+
+Lesson 8:(Extra!!)
+
+   :doc:`lesson8`
+
 
 Intermediate
 ------------

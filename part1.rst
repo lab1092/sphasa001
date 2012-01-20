@@ -131,6 +131,7 @@ index.html の `.. toctree::` の行の下に対応するファイル名を記�
       part1/lesson6
 
 
+
    .. note::
 
       `show source` でreSTructured Textで記述された元のファイルの内容を
@@ -140,3 +141,18 @@ index.html の `.. toctree::` の行の下に対応するファイル名を記�
 出来上がっているはずです(内容的にはあまり大したことは無いですが)。
 おめでとう。
 
+
+演習問題:Extra!!
+------------------------------------
+
+"ちょっと物足りない"という場合には以下もどぞー。
+
+   .. toctree::
+      :maxdepth: 1
+
+      part1/lesson7
+      part1/lesson8
+
+   .. note::
+
+      Lesson 7 および 8 は、HTMLの表示の拡張、です。
