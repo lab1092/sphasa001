@@ -9,6 +9,12 @@ git.exe log
 
 .. code-block:: none
 
+   commit b3980d565b26a2435c2e671b2ac0085c0f24e5b1
+   Author: MITSUDA tetsuo <lab1092@gmail.com>
+   Date:   Sat Jan 21 07:06:14 2012 +0900
+   
+       HTML出力をまとめた
+   
    commit e654348609a151626c03f341e780a8ec065a6cde
    Author: MITSUDA tetsuo <lab1092@gmail.com>
    Date:   Sat Jan 21 04:18:19 2012 +0900
@@ -63,10 +69,5 @@ git.exe log
    
        Part1最初の追加
    
-   commit d0bb3064f1ddff1b2f8292acff303139c2a58b7d
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Sat Dec 3 12:23:59 2011 +0900
-   
-       最初のコミット
 
 現在、最新の 10 件を表示中。
