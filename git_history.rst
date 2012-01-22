@@ -9,6 +9,12 @@ git.exe log
 
 .. code-block:: none
 
+   commit 0b89903f9f7c45fbe286e6807b07fb6a085242cb
+   Author: MITSUDA tetsuo <lab1092@gmail.com>
+   Date:   Sat Jan 21 21:18:10 2012 +0900
+   
+       コンパイル済みHTMLファイルアーカイブを更新
+   
    commit b3980d565b26a2435c2e671b2ac0085c0f24e5b1
    Author: MITSUDA tetsuo <lab1092@gmail.com>
    Date:   Sat Jan 21 07:06:14 2012 +0900
@@ -62,12 +68,6 @@ git.exe log
    Date:   Thu Dec 8 01:59:14 2011 +0900
    
        lesson 3,4,5を追加
-   
-   commit a9dfb031f1c9ee6f24f029797a9d9a939fdefb9f
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Tue Dec 6 08:18:32 2011 +0900
-   
-       Part1最初の追加
    
 
 現在、最新の 10 件を表示中。
