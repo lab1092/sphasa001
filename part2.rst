@@ -1,44 +1,90 @@
-﻿.. _label-part2:
+.. _label-part2:
 
-10:00 -10:40 - 第二部:ハンズオン＋
+おまけ
 
-Part2.Sphinxその他もろもろの拡張etc.
+Sphinxその他もろもろの拡張etc.
 ====================================
 
-当日までに間に合うか???
+
 
 make-html.bat
 -------------
 
 Windowsユーザーはバッチファイル書くといいよ。
 
-(なんか書きたい)
+ドキュメントディレクトリに以下の行を書いてあげると ``make html`` のあとにブラウザ開いてくれます。
+
+::
+
+   call .\make.bat html
+
+   .\_build\html\index.html
+
+
+Macユーザーで XTools インストールしていない人は ``make html`` できないので、 make-html.sh でも書いておけばいいよ。
+
+:: 
+   
+   sphinx-build -b html -d _build/doctree . _build/html
+
+.. note::
+
+   ``make clean``も同様に.bat / .sh 書いておくといいよ。
 
 
 CSS見栄えの変更
 ---------------
 
-(なんか書きたい)
+ad hocな変更であれば、テーマで使っている CSS ファイルを _static にコピペして編集します。
+
+.. note::
+
+   .jsも _static にコピペすると…
+
 
 blockdiagなど
 -------------
 
-(なんか書きたい)
+http://pypi.python.org/pypi に行って、 ``blockdiag`` で検索してみてください。
+
+
 
 rst2pdf
 -------------
 
-(なんか書きたい)
+なにげにハードル高いです。Windows であれば Python 2.6x + Sphinx + PIL 1.1.6 + ReportLab 2.5 の組み合わせがいいかも。
 
-rst2odt
+DocUtils 0.8ではエラーが出るので対処が必要になる模様
+
+   * sphinx make pdf でエラーになる件 - うまい棒blog
+      * http://d.hatena.ne.jp/hogem/20120113/1326463395
+
+rst2odf
 -------------
 
-(なんか書きたい)
+rst2odf でOpenOffice.orgで採用されている .odt 形式を作成(変換可能)です。
 
+   * reSTからPDFにする(JODConverter経由で)
+      * http://blog.livedoor.jp/lab1092/archives/51727259.html
 
 make htmlhelp
 --------------
 
 ``make htmlhelp`` を実行して、.chmファイルを作成したときについて
+
+   * http://blog.livedoor.jp/lab1092/archives/51735420.html
+
+pandoc
+-------
+
+いろいろなマークアップを変換出来る *pandoc*
+
+http://johnmacfarlane.net/pandoc/
+
+   * UTF-8 を前提に処理しているっぽいので事前に適宜文字コード変換すること
+   * 相互変換出来ないマークアップありますので方向に破棄をつけてください。
+   * HTML -> reST は結構微妙
+   
+
 
 
