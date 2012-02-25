@@ -141,6 +141,19 @@ index.html の `.. toctree::` の行の下に対応するファイル名を記�
 出来上がっているはずです(内容的にはあまり大したことは無いですが)。
 おめでとう。
 
+   .. note::
+
+      上記レッスンについて、どのような文書をターゲットにしているか、を記載しておきます。参考まで。
+
+      * Lesson4まで修了: プレスリリースのような タイトルおよび本文のマークアップ
+   
+         * ex. http://www.businesswire.jp/portal/site/jp/home/ 
+
+      * Lesson6まで修了: リリースノートとか
+   
+         * http://msdn.microsoft.com/ja-jp/ie/aa740486
+         * http://kb2.adobe.com/jp/releasenotes/923/cpsid_92359.html
+
 
 演習問題:Extra!!
 ------------------------------------
