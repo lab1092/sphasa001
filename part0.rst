@@ -101,3 +101,10 @@
 ----------------------
 
 後で相談&調整しましょう。
+
+
+   .. note::
+   
+      宣伝資料はこちら。
+      
+         http://dl.dropbox.com/u/3864210/sphasa001/03kobe_pre/index.html
