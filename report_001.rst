@@ -74,7 +74,7 @@ kyoto.py( https://groups.google.com/forum/#!forum/kyotopy )の方が紛れ込ん
 合には、元となるreSTも閲覧出来るサイトもあるのでそちらも参考になりますよ、
 ということで。
 
- 　* http://sphinx-users.jp/doc.html
+   * http://sphinx-users.jp/doc.html
    * Pythonドキュメント
       * http://www.python.jp/doc/release/
       * http://www.python.jp/doc/nightly/

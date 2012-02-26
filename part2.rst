@@ -1,11 +1,11 @@
-.. _label-part2:
+﻿.. _label-part2:
 
-おまけ
-
-Sphinxその他もろもろの拡張etc.
+====================================
+Sphinxその他もろもろ
 ====================================
 
-
+Tips
+====
 
 make-html.bat
 -------------
@@ -29,11 +29,44 @@ Macユーザーで XTools インストールしていない人は ``make html`` 
 
 .. note::
 
-   ``make clean``も同様に.bat / .sh 書いておくといいよ。
+   ``make clean`` も同様に.bat / .sh 書いておくといいよ。
+
+::
+
+   call .\make.bat clean
+
+
+::
+
+   rm -rf _build/html/*
+
+
+
+S6形式のプレゼンテーション資料
+-------------------------------
+
+こういうやつです。
+
+   http://dl.dropbox.com/u/3864210/sphasa001/03kobe_pre/index.html
+
+これをローカル環境で開くと、Webブラウザのセキュリティ設定によっては正しく表示されないことがあります。
+
+解消するには、ブラウザの設定を変更するか、Python入っている環境であれば「一行webサーバ」を立てます。
+( http://mojix.org/2009/03/05/python_one_line_fileserver )
+
+::
+
+   python -m SimpleHTTPServer 8080 
+
+
+拡張など
+========
 
 
 CSS見栄えの変更
 ---------------
+
+テーマを変えることも可能です。
 
 ad hocな変更であれば、テーマで使っている CSS ファイルを _static にコピペして編集します。
 

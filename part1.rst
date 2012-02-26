@@ -1,4 +1,4 @@
-.. _label-part1:
+﻿.. _label-part1:
 
 10:20 -10:40,10:50-11:30 - ハンズオン
 
@@ -6,7 +6,8 @@ Part1.はじめてのSphinx
 ========================
 
 今回はSphinxプロジェクトの基本を学んでもらいます。
-(別途資料用意の予定)
+
+この内容は http://dl.dropbox.com/u/3864210/sphasa001/part1.html で確認可能
 
 Sphinxのインストール
 ------------------------
@@ -17,6 +18,15 @@ Sphinxのインストール
    ::
 
       python -V
+
+
+出力結果の例はこちら。
+
+   .. code-block :: bat
+   
+      C:\Users\manda>python -V
+      Python 2.6.1
+
 
 インストールされていなければPythonをインストールします(各OSに合わせたも
 のをpython.org等から入手してください)。
@@ -34,6 +44,19 @@ Sphinx(1.0以上)をインストールします。インストールの方法に
 
    * OSのパッケージマネージャを利用する方法
    * easy_install を利用する方法
+
+
+   .. note:: setup_toolsのインストール
+
+      こちらのページをよく読んで導入してください。
+
+      http://pypi.python.org/pypi/setuptools
+
+   .. note:: 環境によっては
+
+      シンボリックリンクをを作成するなどが必要な様子。
+
+      http://pocketstudio.jp/log3/2012/02/22/sphinx_handson_3/
 
 
 Sphinxプロジェクトの作成

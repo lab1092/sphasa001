@@ -9,65 +9,65 @@ git.exe log
 
 .. code-block:: none
 
+   commit c2b15da84742aef8d77aeddc649b7fc72ff76c4a
+   Author:
+   Date:   Sat Feb 25 11:15:34 2012 +0900
+   
+       宣伝スライドへのリンク追加
+   
+   commit 43c48c3c75b6d614ec5db4f3eca16face3c5e79f
+   Author:
+   Date:   Sat Feb 25 11:03:47 2012 +0900
+   
+       note記載の追加
+   
+   commit a89bd2d69250b741f30aee231d45a3df1c28b18c
+   Author:
+   Date:   Fri Feb 24 07:44:08 2012 +0900
+   
+       make無い人向け対応
+   
+   commit 197c3478efa6842c691bd50de7bb0b27fa6ab6cb
+   Author:
+   Date:   Fri Feb 24 02:10:38 2012 +0900
+   
+       part1 part2 にいくつか追加
+   
+   commit 4433d9d70e27d0338682649c04dc25578d50116a
+   Author:
+   Date:   Fri Feb 24 01:10:10 2012 +0900
+   
+       3回目の時間割書いた
+   
+   commit 7cddd3ff36d5b6216050794c1071fc6e718a6581
+   Author:
+   Date:   Fri Feb 24 00:50:33 2012 +0900
+   
+       3/4に向けたREADME更新
+   
+   commit e3b76e878786f2ae117ef755d2efb969a52d4df3
+   Author:
+   Date:   Sun Jan 22 13:02:29 2012 +0900
+   
+       Sphinx朝会@十三の開催レポート書いた
+   
    commit 0b89903f9f7c45fbe286e6807b07fb6a085242cb
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
+   Author:
    Date:   Sat Jan 21 21:18:10 2012 +0900
    
        コンパイル済みHTMLファイルアーカイブを更新
    
    commit b3980d565b26a2435c2e671b2ac0085c0f24e5b1
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
+   Author:
    Date:   Sat Jan 21 07:06:14 2012 +0900
    
        HTML出力をまとめた
    
    commit e654348609a151626c03f341e780a8ec065a6cde
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
+   Author:
    Date:   Sat Jan 21 04:18:19 2012 +0900
    
        part1 Lesson 7および8を追加
-   
-   commit 4852db064481b65fa6027f6293bc03b9ba4f4a89
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Sun Dec 11 02:09:34 2011 +0900
-   
-       ビルド後の出力を同梱>html.zip
-   
-   commit 361f48fd71f97b8231eb6db1ca29b48a8043cb8d
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Sun Dec 11 01:49:40 2011 +0900
-   
-       さらに追加
-   
-   commit ce393bd48cf9d567596287589dc9960f14faa59a
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Sun Dec 11 01:45:15 2011 +0900
-   
-       次回の予定を追加
-   
-   commit d4971efc05a7d032d5420a5c058c5b679108530e
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Sun Dec 11 01:38:34 2011 +0900
-   
-       リンクを修正
-   
-   commit fca1ed930bfb76cceb05459f27d1c48f166a3885
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Sun Dec 11 01:05:14 2011 +0900
-   
-       レポート途中まで書いた & gitヒストリをrstにするスクリプトを。
-   
-   commit 1edbd4fcbb2e163aa8d4284132091d8f822eaac6
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Fri Dec 9 00:46:26 2011 +0900
-   
-       Part1の部分書いた
-   
-   commit b02496c07a5c4b0abe699274aea2ef748ec1d0eb
-   Author: MITSUDA tetsuo <lab1092@gmail.com>
-   Date:   Thu Dec 8 01:59:14 2011 +0900
-   
-       lesson 3,4,5を追加
    
 
 現在、最新の 10 件を表示中。

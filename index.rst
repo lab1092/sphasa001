@@ -18,6 +18,7 @@ Sphinx朝会2012年3月にようこそ!!
    glossary
    wrapup
    report
+   git_history
 
 Indices and tables
 ==================

@@ -40,6 +40,11 @@ while 1:
     if not line:
         break
     
+    line = line.rstrip()
+    
+    if line.startswith('Author:'):
+        line = 'Author: *Nanashi*'
+    
     if 'commit' in line > 0:
         
         if c >= c_max:
@@ -48,7 +53,7 @@ while 1:
 
 #    wl = line + "\n"
 #    fo.write(wl)
-    print  >>fo,'   '+unicode(line, 'utf-8').rstrip()
+    print  >>fo,'   '+unicode(line, 'utf-8')
 
 
 print >>fo,""
