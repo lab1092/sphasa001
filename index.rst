@@ -3,9 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Sphinx朝会2012年3月にようこそ!!
+Sphinx朝会にようこそ!!
 ================================
 
+ドキュメンテーションツール、Sphinxの初歩の初歩を学んでみましょう。
+(2011～2012にかけて行った勉強会の名残みたいなものです。)
 
 目次:
 

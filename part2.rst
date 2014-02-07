@@ -92,6 +92,13 @@ DocUtils 0.8ではエラーが出るので対処が必要になる模様
    * sphinx make pdf でエラーになる件 - うまい棒blog
       * http://d.hatena.ne.jp/hogem/20120113/1326463395
 
+   .. note::
+
+      Sphinx→Latex→PDF が主流(?)になっているようですね…。
+      
+      make singlehtml → wkhtmltopdf とかでいい場合もあります。
+
+
 rst2odf
 -------------
 
@@ -119,5 +126,14 @@ http://johnmacfarlane.net/pandoc/
    * HTML -> reST は結構微妙
    
 
+   .. note::
+
+      2014/2/8現在 バージョン 1.12.3.2
 
 
+静的サイト生成システム
+-----------------------
+
+こんなにたくさんあるんですね(2014.2)
+
+http://staticsitegenerators.net/
